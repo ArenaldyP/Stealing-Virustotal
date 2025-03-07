@@ -23,7 +23,7 @@ Sebelum menjalankan program ini, pastikan:
 ## Cara Menggunakan
 1. **Kompilasi kode** menggunakan MinGW atau Visual Studio:
    ```sh
-   gcc -o system_info system_info.c -lwinhttp -liphlpapi
+   x86_64-w64-mingw32-g++ -o system_info.exe Stealing-Virustotal.c -lwinhttp -liphlpapi
    ```
 2. **Jalankan program** dari terminal atau command prompt:
    ```sh
